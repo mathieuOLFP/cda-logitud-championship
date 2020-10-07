@@ -1,0 +1,37 @@
+@startuml
+
+package "Entity"{
+
+    class Competition{
+        - id: int
+        - location: string
+        - date: datetime
+    }
+    class Competitor {
+        - id: int
+        - name: string
+        - firstname: string
+        - email: string
+        - picture: string
+    }
+    class Result{
+        - id : int
+        - time: time
+        - try: int
+
+    }
+    class Category{
+        - id : int
+        - label: string
+    }
+    class Profile{
+        - id : int
+        - label: string
+    }
+
+
+
+
+}
+
+@enduml
